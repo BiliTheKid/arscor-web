@@ -13,10 +13,12 @@ body {
 .origami-flame {
   fill: #1E90FF;
   transition: fill 0.3s ease;
+  filter: drop-shadow(0 0 8px rgba(30, 144, 255, 0.6));
 }
 
 .origami-flame:hover {
   fill: #0C6DDF;
+  filter: drop-shadow(0 0 12px rgba(30, 144, 255, 0.8));
 }
 
 .section {

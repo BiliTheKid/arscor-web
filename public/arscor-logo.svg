@@ -1,8 +1,16 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
   <!-- Blue Origami Flame Icon -->
-  <path d="M50 20 C60 10, 80 15, 75 35 C85 25, 105 30, 90 50 C100 40, 115 45, 100 70 C110 60, 125 65, 110 90 C95 75, 80 90, 70 70 C60 90, 45 75, 55 60 C45 80, 30 65, 40 45 C30 65, 15 50, 35 30 C25 40, 10 30, 30 15 C40 25, 50 15, 50 20 Z" 
-    fill="#1E90FF" stroke="#1E90FF" stroke-width="1" />
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Glowing origami flame shape -->
+  <path d="M70 20 L90 40 L60 60 L80 80 L50 100 L30 70 L50 50 L30 30 Z" 
+    fill="#1E90FF" stroke="#1E90FF" stroke-width="1" filter="url(#glow)" />
 
   <!-- Company Name: Arscor (in black) -->
   <text x="140" y="70" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000000">ARSCOR</text>
