@@ -11,7 +11,7 @@ const Index = () => {
       <header className="fixed w-full bg-background/90 backdrop-blur-sm z-50 border-b">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <img src="/arscor-logo.svg" alt="Arscor" className="h-10" />
+            <img src="/arscor-logo.svg" alt="Arscor" className="h-10 arscor-logo" />
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <Link to="/" className="text-foreground hover:text-primary transition-colors">Home</Link>
@@ -56,7 +56,7 @@ const Index = () => {
                 <img 
                   src="/arscor-logo.svg" 
                   alt="Arscor" 
-                  className="relative w-64 h-64 lg:w-80 lg:h-80 object-contain"
+                  className="relative w-64 h-64 lg:w-80 lg:h-80 object-contain arscor-logo"
                 />
               </div>
             </div>
@@ -277,7 +277,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <img src="/arscor-logo.svg" alt="Arscor" className="h-10" />
+              <img src="/arscor-logo.svg" alt="Arscor" className="h-10 arscor-logo" />
               <p className="mt-4 text-sm text-muted-foreground">
                 Monetize your digital assets with Arscor.
               </p>

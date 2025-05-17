@@ -10,6 +10,12 @@ body {
   background-color: #ffffff;
 }
 
+/* Add explicit styling for the logo image */
+.arscor-logo {
+  height: 40px;
+  width: auto;
+}
+
 .origami-flame {
   transition: filter 0.3s ease;
   filter: drop-shadow(0 0 8px rgba(30, 144, 255, 0.6));
