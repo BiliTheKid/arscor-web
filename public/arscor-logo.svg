@@ -1,7 +1,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
   <!-- Blue Origami Flame Icon -->
-  <image x="20" y="20" width="80" height="80" href="/lovable-uploads/c437ff03-1ac9-46d8-818e-12ff87df06b7.png" class="origami-flame" />
+  <image x="20" y="20" width="80" height="80" href="./lovable-uploads/c437ff03-1ac9-46d8-818e-12ff87df06b7.png" class="origami-flame" />
   
   <!-- Company Name: Arscor (in black) -->
   <text x="140" y="70" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000000">ARSCOR</text>
