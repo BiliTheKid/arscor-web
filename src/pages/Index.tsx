@@ -277,7 +277,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <img src="/arscor-logo.svg" alt="Arscor" className="h-10 arscor-logo" />
+              <img src="/arscor-logo.logo" alt="Arscor" className="h-10 arscor-logo" />
               <p className="mt-4 text-sm text-muted-foreground">
                 Monetize your digital assets with Arscor.
               </p>
