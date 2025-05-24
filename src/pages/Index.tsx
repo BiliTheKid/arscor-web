@@ -11,7 +11,7 @@ const Index = () => {
       <header className="fixed w-full bg-background/90 backdrop-blur-sm z-50 border-b">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <img src="/arscor-logo.svg" alt="Arscor" className="h-10 arscor-logo" />
+            <img src="/arscor-logo.png" alt="Arscor" className="h-10 arscor-logo" />
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <Link to="/" className="text-foreground hover:text-primary transition-colors">Home</Link>
