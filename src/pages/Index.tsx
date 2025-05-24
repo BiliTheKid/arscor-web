@@ -54,7 +54,7 @@ const Index = () => {
               <div className="relative">
                 <div className="absolute -inset-4 rounded-full bg-blue-100/50 animate-pulse"></div>
                 <img 
-                  src="/arscor-logo.svg" 
+                  src="/arscor-logo.png" 
                   alt="Arscor" 
                   className="relative w-64 h-64 lg:w-80 lg:h-80 object-contain arscor-logo"
                 />
